@@ -25,5 +25,6 @@ def acquisisciValutazioni():
 
 acquisisciValutazioni()
 
+## TEST CODE
 def test_acquisisciValutazioni():
     assert media({'key1': 8,'key2': 3}) == 5.5
