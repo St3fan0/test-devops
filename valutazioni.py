@@ -1,4 +1,5 @@
 import pytest
+import funzioni
 print("- - - - - - - Matematica - - - - - - - - ")
 print("- - - - - - - Valutazioni - - - - - - - -")
 
@@ -26,5 +27,9 @@ def acquisisciValutazioni():
 acquisisciValutazioni()
 
 ## TEST CODE
-def test_acquisisciValutazioni():
+def test_media():
     assert media({'key1': 8,'key2': 3}) == 5.5
+
+""" def test_divisione():
+    with pytest.raises(Exception):
+        funzioni.divisione(5,6) """
