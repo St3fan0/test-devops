@@ -41,4 +41,9 @@ def calcolatrice():
         print("operazione non supportata")
 
 while input("vuoi eseguire un operazione? S/N ") == "S":
-    calcolatrice()
+    try:
+        calcolatrice()
+    except ValueError as e:
+        print("Un errore! ",  e)
+    finally:
+        print("programma eseguito")
